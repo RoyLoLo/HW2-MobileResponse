@@ -1,0 +1,159 @@
+body {
+    position: static;
+    background-image: url("../images/GrafWP.jpg");
+    background-size :100%;
+    margin:auto;
+    
+}
+
+.navfull{
+    background-color:lemonchiffon;
+    width:100%;
+    height:80px;
+    margin-bottom:15px;
+}
+
+nav{
+    background-color: lemonchiffon;
+    width:960px;
+    height:80px;
+    margin: auto;
+    
+}
+#logo{
+    height:75px;
+    width: 220px;
+    margin-top:2px;
+    
+}
+
+.navlinks{
+    display: flex;
+    float:right;
+}
+
+.navlink{
+    color: whitesmoke;
+    text-align: center;
+    margin-top:25px;
+    border-left: 2px dodgerblue;
+    padding:0px 10px;
+}
+
+.container{
+    
+    width:960px;
+    height:480px;
+    margin: 0 auto;
+    
+}
+
+.content{
+    background-image: url("../images/wood.jpg");
+    background-size: 960px auto; 
+    padding-bottom:20px;  
+}
+
+h1{
+    font-size: 30px;
+    color:yellow;
+    margin:10px;
+    margin-left:50px;
+}
+#kirby{
+    width:180px;
+    height:180px;
+    margin:10px;
+    float: left;
+
+}
+
+p{
+    color: whitesmoke;
+    font-size: 22px;
+    line-height: 27px;
+    width: 85%;
+    margin-left: 8.5%;
+    padding-bottom:10px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color: lemonchiffon;
+    color:dodgerblue;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom:4px;
+    width: 100%;
+    border-top: 8px solid yellow;
+
+}
+
+table{
+    margin:auto;
+    
+}
+
+
+td{
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    width:90%;
+    margin: 0 auto;
+
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+#contactlabel{
+    color: lemonchiffon;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+       }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+        background-image:none;
+    }
+    nav{
+        width:100%;
+    }
+
+    .container{
+        width:100%;
+        height: auto;
+        overflow-y:scroll;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lime;
+        background-image:none;
+    }
+    .container{
+        
+        height: auto;
+        overflow-y:scroll;
+    }
+}
